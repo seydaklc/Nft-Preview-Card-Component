@@ -1,0 +1,95 @@
+html * {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+.bigbox {
+  border: hsl(216, 50%, 16%) solid 1px;
+  width: 240px;
+  height: 420px;
+  margin: 130px auto;
+  background-color: hsl(216 50% 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 10px hsl(215, 64%, 9%);
+}
+p {
+  font-weight: 400;
+  font-size: 13px;
+  background-color: hsl(216, 50%, 16%);
+  color: hsla(215, 51%, 70%, 0.6);
+  line-height: 1.5em;
+}
+img {
+  border-radius: 5px;
+  width: 208px;
+  height: 200px;
+  margin: 16px 16px 10px 16px;
+}
+.content {
+  padding: 5px 16px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.fee {
+  padding: 5px 16px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0px;
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.eth {
+  display: flex;
+  flex-direction: row;
+}
+.days {
+  display: flex;
+  flex-direction: row;
+  color: hsla(215, 51%, 70%, 0.8);
+}
+hr {
+  width: 85%;
+  border: none;
+  height: 1px;
+  background-color: hsla(215, 51%, 70%, 0.8);
+  margin: 8px 18px 0px 18px;
+}
+.last {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  margin: 10px;
+}
+.avatar {
+  border: white solid 1px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.credit {
+  margin: 8px auto auto 0;
+  color: hsl(215, 51%, 70%, 0.8);
+  font-size: 12px;
+  background-color: hsl(216, 50%, 16%);
+  font-weight: 400;
+}
+h4:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.credit a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.nft:hover {
+  cursor: pointer;
+}
